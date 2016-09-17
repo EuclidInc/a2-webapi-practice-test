@@ -13,6 +13,7 @@ namespace a2_webapi_practice_test
     {
         protected void Application_Start()
         {
+            //
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
